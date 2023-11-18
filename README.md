@@ -79,7 +79,7 @@ Set your [Prettier](https://github.com/prettier/prettier) configuration, for [@f
 ### lint-staged
 
 This project also publishes [lint-staged](https://github.com/lint-staged/lint-staged) configurations for JavaScript and TypeScript.
-Create a **.lintstagedrc.js** file:
+Create a **lint-staged.config.js** file:
 
 #### ESM:
 
