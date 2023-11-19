@@ -40,26 +40,25 @@
       "path": "@commitlint/cz-commitlint"
     }
   },
-  "prettier": "@ferfalk/prettier-config",
   "devDependencies": {
     "@commitlint/cli": "^18.4.2",
     "@commitlint/config-conventional": "^18.4.2",
     "@commitlint/cz-commitlint": "^18.4.2",
-    "@ferfalk/prettier-config": "^1.0.1",
+    "@stylistic/eslint-plugin": "^1.4.0",
+    "@stylistic/eslint-plugin-migrate": "^1.4.0",
     "@types/eslint": "^8.44.7",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^4.1.0",
     "eslint": "^8.54.0",
-    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^27.6.0",
     "eslint-plugin-n": "^16.3.1",
-    "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-rxjs": "^5.0.3",
     "eslint-plugin-sonarjs": "^0.23.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.1.0",
-    "prettier": "^3.1.0",
-    "prettier-eslint": "^16.1.2"
+    "lint-staged": "^15.1.0"
   },
   "publishConfig": {
     "access": "public",

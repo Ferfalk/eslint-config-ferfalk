@@ -1,9 +1,15 @@
+// Migrate `@typescript-eslint` rules to @stylistic namespace
+/* eslint @stylistic/migrate/migrate: "error" */
+
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: 'tsconfig?(.test).json',
   },
+  plugins: [
+    '@typescript-eslint',
+  ],
   extends: [
     './index.js',
     'plugin:rxjs/recommended',
@@ -24,9 +30,19 @@ module.exports = {
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': [
       'error',
-      { allow: ['private-constructors', 'protected-constructors', 'decoratedFunctions', 'overrideMethods'] },
+      {
+        allow: [
+          'private-constructors',
+          'protected-constructors',
+          'decoratedFunctions',
+          'overrideMethods',
+        ],
+      },
     ],
-    '@typescript-eslint/no-inferrable-types': ['error', { ignoreParameters: true, ignoreProperties: true }],
+    '@typescript-eslint/no-inferrable-types': [
+      'error',
+      { ignoreParameters: true, ignoreProperties: true },
+    ],
     '@typescript-eslint/no-misused-promises': [
       'error',
       {

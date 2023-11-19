@@ -1,3 +1,17 @@
+// Migrate `@eslint` rules to @stylistic namespace
+/* eslint @stylistic/migrate/migrate: "error" */
+
+// eslint-disable-next-line n/no-unpublished-require
+const stylistic = require('@stylistic/eslint-plugin');
+// https://eslint.style/packages/default
+
+const customized = stylistic.configs.customize({
+  indent: 2,
+  quotes: 'single',
+  semi: true,
+  jsx: false,
+});
+
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   env: {
@@ -7,24 +21,35 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
   },
+  plugins: [
+    '@stylistic',
+    '@stylistic/migrate',
+  ],
   extends: [
     'eslint:recommended',
     'plugin:n/recommended',
     'plugin:promise/recommended',
     'plugin:sonarjs/recommended',
-    'plugin:prettier/recommended',
   ],
   rules: {
-    indent: [
+    ...customized.rules,
+    '@stylistic/max-len': [
       'error',
-      2,
       {
-        SwitchCase: 1,
-        ignoredNodes: ['TemplateLiteral > *'],
+        code: 80,
+        ignoreComments: true,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: false,
+        ignoreRegExpLiterals: true,
       },
-    ], // https://stackoverflow.com/a/53094449 https://stackoverflow.com/a/54958527
-    'prettier/prettier': ['error'],
-    eqeqeq: 'warn',
+    ],
+    '@stylistic/array-bracket-newline': ['error', 'consistent'],
+    '@stylistic/array-element-newline': ['error', 'consistent'],
+    '@stylistic/object-curly-newline': ['error', { consistent: true, multiline: true }],
+    '@stylistic/object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
+    'eqeqeq': 'warn',
     'array-callback-return': 'warn',
     'sonarjs/cognitive-complexity': 'warn',
     'sonarjs/prefer-immediate-return': 'warn',
