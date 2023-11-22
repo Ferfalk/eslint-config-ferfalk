@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/Ferfalk/eslint-config-ferfalk/compare/v0.2.0...v0.2.1) (2023-11-22)
+
+
+### Features
+
+* **no-named-as-default-member:** disabled rule import/no-named-as-default-member ([b8d7ff4](https://github.com/Ferfalk/eslint-config-ferfalk/commit/b8d7ff489b42b1c051e873bd85330bc9d4361b1e))
+
 ## [0.2.0](https://github.com/Ferfalk/eslint-config-ferfalk/compare/v0.1.0...v0.2.0) (2023-11-22)
 
 
