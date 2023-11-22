@@ -36,5 +36,6 @@ module.exports = {
     'sonarjs/prefer-immediate-return': 'warn',
     'sonarjs/no-redundant-jump': 'warn',
     'no-unused-vars': 'warn',
+    'import/no-named-as-default-member': 'off',
   },
 };
