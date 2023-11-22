@@ -35,13 +35,6 @@ module.exports = {
     'sonarjs/cognitive-complexity': 'warn',
     'sonarjs/prefer-immediate-return': 'warn',
     'sonarjs/no-redundant-jump': 'warn',
-    'no-unused-vars': [
-      'warn',
-      {
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-        caughtErrorsIgnorePattern: '^_',
-      },
-    ],
+    'no-unused-vars': 'warn',
   },
 };
