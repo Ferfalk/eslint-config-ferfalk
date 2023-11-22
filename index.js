@@ -9,6 +9,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:eslint-comments/recommended',
     'plugin:n/recommended',
     'plugin:promise/recommended',
     'plugin:sonarjs/recommended',
@@ -32,6 +33,13 @@ module.exports = {
     'prettier/prettier': ['error'],
     eqeqeq: 'warn',
     'array-callback-return': 'warn',
+    'eslint-comments/no-unused-disable': 'error',
+    'eslint-comments/require-description': [
+      'warn',
+      {
+        ignore: ['eslint-enable'],
+      },
+    ],
     'sonarjs/cognitive-complexity': 'warn',
     'sonarjs/prefer-immediate-return': 'warn',
     'sonarjs/no-redundant-jump': 'warn',

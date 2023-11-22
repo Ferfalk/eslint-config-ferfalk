@@ -19,7 +19,7 @@ Shared [ESLint](https://eslint.org/docs/latest/) configurations.
 Install dependencies:
 
 ```bash
-npm install --save-dev eslint-config-ferfalk eslint eslint-plugin-n eslint-plugin-prettier eslint-plugin-promise eslint-plugin-sonarjs prettier prettier-eslint eslint-config-prettier @ferfalk/prettier-config
+npm install --save-dev eslint-config-ferfalk eslint eslint-plugin-eslint-comments eslint-plugin-n eslint-plugin-prettier eslint-plugin-promise eslint-plugin-sonarjs prettier prettier-eslint eslint-config-prettier @ferfalk/prettier-config
 ```
 
 ### TypeScript
