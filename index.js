@@ -20,6 +20,12 @@ module.exports = {
       2,
       {
         SwitchCase: 1,
+        FunctionDeclaration: {
+          parameters: 'first',
+        },
+        FunctionExpression: {
+          parameters: 'first',
+        },
         ignoredNodes: ['TemplateLiteral > *'],
       },
     ], // https://stackoverflow.com/a/53094449 https://stackoverflow.com/a/54958527
