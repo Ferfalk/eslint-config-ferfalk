@@ -1,3 +1,10 @@
+## [0.3.0](https://github.com/Ferfalk/eslint-config-ferfalk/compare/v0.2.1...v0.3.0) (2023-11-22)
+
+
+### Reverts
+
+* Revert "feat(import): added eslint-plugin-import "eslint-import-resolver-typescript" ([7f0f2c9](https://github.com/Ferfalk/eslint-config-ferfalk/commit/7f0f2c9376e51717475611d4f731f94a88c7b973))
+
 ## [0.2.1](https://github.com/Ferfalk/eslint-config-ferfalk/compare/v0.2.0...v0.2.1) (2023-11-22)
 
 
