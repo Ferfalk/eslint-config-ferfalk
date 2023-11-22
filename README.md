@@ -9,7 +9,7 @@ Shared [ESLint](https://eslint.org/docs/latest/) configurations.
 Install dependencies:
 
 ```bash
-npm install --save-dev eslint-config-ferfalk eslint eslint-plugin-n eslint-plugin-prettier eslint-plugin-promise eslint-plugin-sonarjs prettier prettier-eslint eslint-config-prettier @ferfalk/prettier-config
+npm install --save-dev eslint-config-ferfalk eslint eslint-plugin-n eslint-plugin-import eslint-plugin-prettier eslint-plugin-promise eslint-plugin-sonarjs prettier prettier-eslint eslint-config-prettier @ferfalk/prettier-config
 ```
 
 ### TypeScript
@@ -17,7 +17,7 @@ npm install --save-dev eslint-config-ferfalk eslint eslint-plugin-n eslint-plugi
 Install [JavaScript dependencies](#javascript) and additional TypeScript dependencies:
 
 ```bash
-npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-rxjs
+npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript eslint-plugin-rxjs
 ```
 
 ### Jest

@@ -2,7 +2,6 @@
 module.exports = {
   env: {
     node: true,
-    es2022: true,
   },
   parserOptions: {
     sourceType: 'module',
@@ -10,6 +9,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:n/recommended',
+    'plugin:import/recommended',
     'plugin:promise/recommended',
     'plugin:sonarjs/recommended',
     'plugin:prettier/recommended',
