@@ -1,5 +1,15 @@
 # eslint-config-ferfalk
 
+<!-- [![Publish](https://github.com/Ferfalk/eslint-config-ferfalk/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Ferfalk/eslint-config-ferfalk/actions/workflows/npm-publish.yml) -->
+
+[![Publish](https://img.shields.io/github/actions/workflow/status/Ferfalk/eslint-config-ferfalk/npm-publish.yml?label=publish)](https://github.com/Ferfalk/eslint-config-ferfalk/actions/workflows/npm-publish.yml)
+[![NPM Version](https://img.shields.io/npm/v/eslint-config-ferfalk.svg)](https://www.npmjs.com/package/eslint-config-ferfalk)
+[![NPM Downloads](https://img.shields.io/npm/dt/eslint-config-ferfalk.svg)](https://www.npmjs.com/package/eslint-config-ferfalk)
+[![Github Repo Size](https://img.shields.io/github/repo-size/Ferfalk/eslint-config-ferfalk.svg)](https://github.com/Ferfalk/eslint-config-ferfalk)
+[![LICENSE](https://img.shields.io/npm/l/eslint-config-ferfalk.svg)](https://github.com/Ferfalk/eslint-config-ferfalk/blob/main/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/Ferfalk/eslint-config-ferfalk.svg)](https://github.com/Ferfalk/eslint-config-ferfalk/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/Ferfalk/eslint-config-ferfalk.svg)](https://github.com/Ferfalk/eslint-config-ferfalk/commits/main)
+
 Shared [ESLint](https://eslint.org/docs/latest/) configurations.
 
 ## Installation
