@@ -1,3 +1,10 @@
+## [0.4.0](https://github.com/Ferfalk/eslint-config-ferfalk/compare/v0.3.0...v0.4.0) (2023-11-22)
+
+
+### Features
+
+* **eslint-comments:** added plugin eslint-plugin-eslint-comments ([a024f87](https://github.com/Ferfalk/eslint-config-ferfalk/commit/a024f875e728f29d80025e5ad1dcd10bce21fd07))
+
 ## [0.3.0](https://github.com/Ferfalk/eslint-config-ferfalk/compare/v0.2.1...v0.3.0) (2023-11-22)
 
 
