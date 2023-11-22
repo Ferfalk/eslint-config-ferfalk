@@ -28,6 +28,15 @@ module.exports = {
         checksVoidReturn: false,
       },
     ],
+    '@typescript-eslint/no-extraneous-class': [
+      'error',
+      {
+        allowConstructorOnly: false,
+        allowEmpty: false,
+        allowStaticOnly: false,
+        allowWithDecorator: true,
+      },
+    ],
   },
   settings: {
     'import/resolver': {
